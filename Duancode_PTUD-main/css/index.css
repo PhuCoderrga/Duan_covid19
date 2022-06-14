@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+.slide{
+    padding-left: 159px;
+    padding-top: 20px;
+
+}
+.lever3{
+    width: 1200px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.lever3 .lv3 img{
+    width: 1200px;
+    float: left;
+    height: 500px;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.lever3 .lv3{
+    width: 9999px;
+     transition: all 0.5s;
+}
+.huong{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    padding-left:10px;
+}
+.huong .phai{
+    position: relative;
+    left:1130px;
+}
+.heading img{
+    padding-top: 20px;
+}
+.heading h2{
+    text-align: center;
+    font-size: 35px;
+    text-transform: none;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #157fda;
+}
+.heading h2::after {
+    width: 50px;
+    height: 4px;
+    background: #157fda;
+    content: "";
+    display: block;
+    margin: 10px auto 0;
+}
+.news_1{
+    padding-top: 30px;
+}
+.news_1 p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+
+}
+#news1{
+    width: 250px; 
+    height: 300px;
+    background-color: #729cc1;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgb(62, 64, 65);
+    padding-top: 20px;
+}
+.tintuc{
+    width: 200px;
+    height: 200px;
+    transition: 0.4s;
+    padding-bottom: 10px;
+}
+.tintuc:hover{
+    transform: scale(1.1);
+}
+.banner-left{
+    width:100%;
+    height: 550px;
+    text-align: center;
+    
+}
+.banner-left1 img{
+    width: 70px;
+    height: 70px;
+}
+.banner_form{
+    
+    margin-top: 40px;
+    background-image: url(../hinh/nền.png);
+    background-repeat: no-repeat;
+}
+#form tr td{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+#benhvien_lv1{
+    background-color: #a0a7ad;
+    text-align: center;
+    box-shadow: 10px 10px 5px #157fda inset;
+    padding-top: 20px;
+}
+.benhvien_lv2{
+    width: 300px;
+    height: 200px;
+    transition: 0.4s;
+    padding-bottom: 10px;
+
+}
+.benhvien_lv2:hover{
+    transform: scale(1.1);
+}
+#phuongphap2 ul li{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
+.phuongphap{
+    width: 100%;
+    height: 700px;
+    color: white;
+
+}
+#phuongphap1{
+    background-image: url(../hinh/nền.png);
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    width: 100%;
+    height: 700px;
+}
+.thongke{
+    width: 100%;
+    height: 810px;
+    background-color:#ecf1f6;
+}
